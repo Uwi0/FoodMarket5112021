@@ -10,6 +10,7 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.kakapo.foodmarket.MainActivity
 import com.kakapo.foodmarket.databinding.ActivitySplashBinding
+import com.kakapo.foodmarket.ui.auth.AuthActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -30,7 +31,7 @@ class SplashActivity : AppCompatActivity() {
             )
         }
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this@SplashActivity, MainActivity::class.java)
+            val intent = Intent(this@SplashActivity, AuthActivity::class.java)
             startActivity(intent)
             finish()
         }, 1000)
