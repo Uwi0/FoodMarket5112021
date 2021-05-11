@@ -21,4 +21,13 @@
     <string name="full_name">Full Name</string>
     <string name="your_full_name">Type your full name</string>
     <string name="continue_create">Continue</string>
+    <string name="number_phone">Phone No.</string>
+    <string name="your_phone_number">Type your phone number</string>
+    <string name="address">Address</string>
+    <string name="your_address">Type your address</string>
+    <string name="number_house">House No.</string>
+    <string name="your_house_no">Type your house no</string>
+    <string name="city">City</string>
+    <string name="type_your_city">Type your city</string>
+    <string name="sign_up_now">Sign Up Now</string>
 </resources>
