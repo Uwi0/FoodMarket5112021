@@ -5,14 +5,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Order</string>
     <string name="title_notifications">Profile</string>
-    <string name="ini_adalah_icon_ok">ini adalah icon ok</string>
+    <string name="icon_ok">ini adalah icon OK</string>
     <string name="image_screen">Image_Screen</string>
     <string name="foodmarket">FoodMarket</string>
-    <string name="email_address">Email Address</string>
     <string name="type_your_email_address">Type your email address</string>
-    <string name="password">Password</string>
     <string name="type_your_password">Type your password</string>
-    <string name="sign_in">Sign In</string>
     <string name="create_new_account">Create New Account</string>
     <string name="email_address">Email Address</string>
     <string name="your_email_address">Type your email address</string>
@@ -20,4 +17,8 @@
     <string name="your_password">Type your password</string>
     <string name="sign_in">Sign In</string>
     <string name="new_account">Create New Account</string>
+    <string name="image_profile">image profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="your_full_name">Type your full name</string>
+    <string name="continue_create">Continue</string>
 </resources>
