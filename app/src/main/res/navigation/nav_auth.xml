@@ -9,12 +9,20 @@
         android:id="@+id/signInFragment"
         android:name="com.kakapo.foodmarket.ui.auth.signin.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signUp"
+            app:destination="@id/signUpFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.kakapo.foodmarket.ui.auth.signup.SignUpFragment"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_signUpAddressFragment"
+            app:destination="@id/signUpAddressFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpAddressFragment"
         android:name="com.kakapo.foodmarket.ui.auth.signup.SignUpAddressFragment"
